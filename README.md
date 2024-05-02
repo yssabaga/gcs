@@ -17,6 +17,7 @@ Con estos comandos se creo la etiqueta "equipo" nombrada como: "autobots-01" y u
 
 `touch yusef.txt`  
 `touch rodrigo.txt`
+`touch oliver.txt` 
 
 Estos commandos crean un archivo en blanco llamado "yusef.txt" y "rodrigo.txt", en la cloud shell del propietario.
 
@@ -24,6 +25,7 @@ Estos commandos crean un archivo en blanco llamado "yusef.txt" y "rodrigo.txt", 
 
 `echo "Trabajando con Buckets" > yusef.txt`  
 `echo "Este archivo es de Rodrigo" > rodrigo.txt`
+`echo "Me gusta GCP" > oliver.txt`
 
 Este commando guardara el texto "Trabajando con Buckets" en el archivo "yusef.txt" y el texto "Este archivo es de Rodrigo" en el archivo "rodrigo.txt"
 
@@ -37,6 +39,7 @@ Este commando agregara una nueva linea con el texto "Por primera vez" en el arch
 
 `gsutil cp yusef.txt gs://sit-devops-training-bkt03`  
 `gsutil cp rodrigo.txt gs://sit-devops-training-bkt03`
+`gsutil cp gs://sit-devops-training-bkt03/oliver.txt .`
 
 Estos commandos copian los archivo "yusef.txt" y "rodrigo.txt" ubicados en la cloud shell del propietario al bucket "sit-devops-training-bkt03"
 
@@ -60,4 +63,5 @@ Con este comando borramos el Bucket "sit-devops-training-bkt03"
 | **Participantes** |
 | :--       | 
 | Rodrigo    | 
+
 | Yusef      |
